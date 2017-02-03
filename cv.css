@@ -1,20 +1,18 @@
-/*body{
-  background: rgb(26, 224, 111); /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  rgba(26, 224, 111,1) 0%, rgba(41,184,229,1) 50%, rgba(26, 224, 111,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  rgba(26, 224, 111,1) 0%,rgba(41,184,229,1) 50%,rgba(26, 224, 111,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  rgba(26, 224, 111,1) 0%,rgba(41,184,229,1) 50%,rgba(26, 224, 111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}*/
 body{
-  background-image: url(../gallerie/photocv.jpg);
+  background-color: rgb(16, 161, 96);
+  background-image: url(gallerie/autre.jpg);
   background-size: cover;
+  background-position: center;
 }
+
 *{
   box-sizing: padding-box;
 }
 hr{
-  color: red;
+  border-radius: 700px 700px 700px;
+  border: 2px solid;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.46);
 }
 .nom h2{
   display: flex;
@@ -24,7 +22,7 @@ hr{
 h1{
   display: flex;
   justify-content: center;
-  color:  rgb(7, 41, 40);
+  color:  black;
   font-family: 'Merriweather', serif;
 }
 /*h2{
@@ -35,7 +33,7 @@ color:  rgb(14, 107, 184);
 h3{
   display: flex;
   justify-content: center;
-  color:  rgb(7, 41, 40);
+  color:  black;
   padding-bottom: 10px;
   font-family: 'Merriweather', serif;
 
@@ -186,7 +184,7 @@ details{
   font-family: 'Patua One', cursive;
   outline: 2px solid green;
   color:black;
-  background: -webkit-linear-gradient(-45deg,  rgba(26, 224, 111,1) 0%,rgba(41,184,229,1) 50%,rgba(26, 224, 111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(-45deg,  rgba(3, 40, 19, 1) 0%,rgba(41, 46, 5, 1) 50%, rgba(3, 40, 19, 1) 100%); /* Chrome10-25,Safari5.1-6 */
 
 }
 .fin{
